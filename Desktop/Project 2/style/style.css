@@ -190,6 +190,14 @@ aside div{
 .aside-top > img {
   margin-left: auto;
 }
+.ppl-cards-container {
+  display: flex;
+  flex-direction: column;
+}
+.mst-ppl-cards {
+  flex: 1;
+}
+
 .mst-ppl-cards img {
   object-fit: cover;
   width: 120px;
@@ -473,6 +481,9 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
+  .mst-ppl-cards {
+    width: 80%;
   }
   .mst-ppl-cards div{
     width: 100%;
