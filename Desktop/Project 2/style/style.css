@@ -1,0 +1,498 @@
+html {
+    box-sizing: border-box;
+  }
+  *{
+    font-family: 'Raleway', sans-serif;
+    margin: 10px;
+  } 
+   *, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.container {
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.container div a {
+  text-decoration: none;
+}
+.logo-container{
+  margin-right: auto;
+  margin-left: 0%;
+}
+.logo { 
+  width: 60%;
+  margin-left: 0px;
+ }
+ .accomodations , .activities {
+  padding-top: 16px;
+  padding-right: 16px;
+}
+
+.nav-item a:hover {
+  border-top: solid blue;
+  padding-top: 15px;
+}
+
+.searchbar { 
+  border: 1px black;
+  border-radius: 10px;
+  display: flex;
+  height: 45px;       
+}
+
+i.fa-solid.fa-location-dot {
+  padding: 15px 15px;
+  margin: 0;
+  border-radius: 12px 0 0 12px;
+  background-color: #F2F2F2;
+  width: 40px;
+
+}
+.srch-btn {
+  border-radius: 0px 12px 12px 0px;
+  background-color: #0065FC;
+  margin: 0;
+  width: 80px;
+  padding: 12px 5px;
+  
+}
+.srch-btn a {
+  color: white;
+  text-decoration: none;
+  margin: 0;
+}
+
+.search-text {
+  border: solid 1px black;
+  font-weight:bold;
+  width: 200px;
+  padding-left: 10px;
+  border-left-width: 0;
+  border-right: 0;
+}
+
+
+::placeholder {
+  color:black;    
+}
+.srch-btn a i {
+  display: none;
+}
+
+.the-filters i  {
+  color:#0065FC;
+  margin: 0;
+  border: 0 1px;
+  background-color: #DEEBFF;
+  border-radius: 50%;
+  padding: 10px;
+  margin-right: 7px;
+}
+h4 {
+  margin-top: 20px;
+}
+.the-filters {
+  display: flex;
+}
+.filter {
+  border: solid 2px #d6d2d2;
+  display: inline-block;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-right: 9px;
+  border-radius: 20px;
+
+}
+.filter:hover{
+  color: red;
+  background-color: yellow;
+}
+.fa-info {
+  font-size: 10px;
+  color: blue;
+  border: solid 2px #d6d2d2;
+  border-radius: 50% 50%;
+  padding: 5px 8px;
+ 
+}
+.info {
+  display: flex;
+  justify-content: flex-start;
+}
+.info p {
+  margin-top: 24px;
+  margin-left: -10px;
+}
+.Accm-in-marseille img {
+  object-fit: cover;
+  width: 100%;
+  height: 100px;
+  border-radius: 20px 20px 0 0;
+  margin: 0;
+  padding: 5px;
+}
+.Accm-in-marseille h2 {
+  padding-top: 40px;
+  padding-left: 20px;
+}
+.card1 h4 {
+  margin-top: 5px;
+}
+.fa-star {
+  color: #0065FC;
+  margin: 0px;
+  font-size: 80%; 
+}
+#greystar{
+  color: #d6d2d2;
+}
+
+.Accm-in-marseille{
+  background-color: #F2F2F2;
+  width: 63%;
+  border-radius: 20px;
+}
+.ratingstars{
+  margin-left: 10px;
+  display: inline;  
+}
+.card1{
+  background-color: white;
+  width:fit-content;
+  object-fit: cover;
+  border-radius: 10% 10% 10% 10%;
+  height:200px; 
+}
+.Accm-cards {
+  display: flex;
+  flex-flow: row wrap;
+  column-gap: 10px;
+  padding-left: 20px;
+}
+.Accm-in-marseille h3 {
+  padding: 20px 0px 40px 20px;
+}
+.main-content {
+  display: flex;
+  flex-direction: row;
+}
+.mst-ppl-chart {
+  width: 20px;
+  height: 20px
+}
+aside div{
+  display: flex;
+  width: 400px;
+  margin-left: 20px;
+}
+.aside-top > img {
+  margin-left: auto;
+}
+.mst-ppl-cards img {
+  object-fit: cover;
+  width: 120px;
+  height: 120px;
+  border-radius: 15px 0px 0px 15px;
+  margin: 5px 0px 5px 5px;
+}
+.mst-ppl-cards div {
+  flex-direction: column;
+  margin-top: 0px;
+  margin-bottom: 0px;  
+}
+.mst-ppl-cards {
+  background-color: white;
+  width: 380px;
+  height: 130px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+.aside-top {
+  padding-top: 30px;
+}
+aside {
+  background-color: #F2F2F2;
+  border-radius: 20px;
+}
+
+.mst-ppl-cards h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.mst-ppl-cards .long-hotel-name p{
+  margin-top: 0px;
+}
+.mst-ppl-cards .ratingstars {
+  margin-top: 25px;
+}
+.mst-ppl-cards .long-hotel-name .ratingstars{
+  margin-top: 15px;
+}
+.mst-ppl-cards .small-pic {
+  min-width: 120px;
+}
+
+#activities-heading {
+  margin: 40px 10px 10px 20px;
+}
+.big-card img{  
+  height: 350px;
+  margin-bottom: 10px;
+}
+.big-card {
+  height: 420px;
+}
+
+.medium-card img{ 
+  height: 160px; 
+}
+.medium-card { 
+  height: 220px; 
+}
+
+.small-actvtescard img { 
+  height: 100px;  
+}
+.small-actvtescard { 
+  height: 160px; 
+}
+
+.card-border {
+  border : 3px solid #F2F2F2;
+  border-radius: 20px;
+}
+.card-width {
+  width: 274px;
+}
+
+.medium2-card img{ 
+  height: 140px;  
+}
+.medium2-card {
+  height: 190px;
+}
+.medium2-card h4 {
+  margin: 10px;
+}
+
+.activities-in-marseille img {
+  object-fit: cover;
+  width: 100%;
+  margin: 0px;
+  border-radius: 20px 20px 0 0;
+}
+
+.activities-in-marseille {
+  display: flex;
+  flex-wrap: wrap;
+  width: auto; 
+  justify-content: space-between;
+  
+} 
+
+.medium-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+footer ul li{
+  list-style: none;
+}
+footer {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 50px;
+  background-color: #F2F2F2;
+  column-gap: 120px;
+}
+.about, .our-accomodations, .assistance {
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.about-list {
+  padding-left: 0px;
+}
+
+a {
+  margin: 0px;
+  text-decoration: none;
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+
+/* media query coding*/
+
+/*tablet */
+@media (min-width: 768px) and (max-width: 992px){
+  header{
+    background-color: yellow;
+  }
+  .container {
+    font-size: 12px;
+      display:flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    h2 {
+      font-size: 14px;
+    }
+    p {
+      font-size: 10px;
+    }
+    .container img {
+      width: 120px;
+    }
+    .container div a:hover {
+      border-top: none;
+      border-bottom: solid blue;
+      padding-bottom: 8px;
+    }
+}
+
+/*mobile*/
+
+@media (max-width : 768px){
+  header{
+    background-color: none;
+  }
+  
+  .container {
+    font-size: 18px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px;
+    
+     
+    }
+    .nav-item{
+      flex: 1;
+      padding: 0;
+      margin: 0;
+      align-items: center;
+      text-align: center;
+      width: 50%;
+    }
+  
+  .logo-container{
+    display: block;
+    width: 100%;
+    margin-left: 40%;
+ 
+  }
+  .logo{
+    width: 120px;
+    height: 50px;
+    
+  }
+  .nav-item{
+    border-bottom: solid grey;
+    padding-bottom: 15px;
+  
+  }  
+ 
+  h2 {
+    font-size: 16px bold;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  p {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  .nav-item:hover {
+    
+    border-bottom: solid blue;
+    border-top: none;
+    padding-bottom: 15px;  
+  }
+  .nav-item a:hover{
+    color: blue;
+    border-top: none;
+  }
+ 
+  .srch-btn {
+    width: 50px;
+    border-radius: 12px 12px 12px 12px;
+  }
+  .srch-btn a i {
+    display: inline-block;
+    padding: 2px 0px 10px 10px;
+    margin: 0;
+    
+  }
+  .srch-btn a span {
+    display: none;
+  }
+  .the-filters {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .the-filters h4 {
+    width: 100%;
+  }
+  .fam-friendly{
+    order: 1;
+  }
+  .pet-allow {
+    order: 1;
+    width: 200px;
+  }
+  .main-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: stretch;
+    
+  }
+  .Accm-in-marseille {
+   min-width: 100%;
+  }
+  .Accm-in-marseille .card1{
+    width : 100%;
+  } 
+  .aside{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .mst-ppl-cards div{
+    width: 100%;
+   flex: 1;
+  }
+  
+  .activities-in-marseille {
+
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    
+    }
+  .activities-in-marseille > div{
+    flex: 1;
+    
+  }  
+  .activities-in-marseille .card-height{
+    height: 200px;
+  }
+  
+}
+
